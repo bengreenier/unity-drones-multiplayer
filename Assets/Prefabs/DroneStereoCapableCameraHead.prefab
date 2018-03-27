@@ -55,6 +55,7 @@ GameObject:
   - component: {fileID: 20702195104767116}
   - component: {fileID: 124279708701437406}
   - component: {fileID: 92178010544207342}
+  - component: {fileID: 114844941665689060}
   m_Layer: 0
   m_Name: LeftEye
   m_TagString: MainCamera
@@ -73,6 +74,7 @@ GameObject:
   - component: {fileID: 20836122993520414}
   - component: {fileID: 124450659055109288}
   - component: {fileID: 92513416391345718}
+  - component: {fileID: 114714146912869794}
   m_Layer: 0
   m_Name: RightEye
   m_TagString: MainCamera
@@ -243,6 +245,18 @@ MonoBehaviour:
   RightEye: {fileID: 20836122993520414}
   PeerList: {fileID: 11400000, guid: 04dedcaa586e3de4888d3e00e6fe7581, type: 2}
   UseEditorNativePlugin: 0
+--- !u!114 &114714146912869794
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1536378793084116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4e813c1603b5d24abf2187d3c9995c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  matRT: {fileID: 2100000, guid: d420dd398589a2344b5ba713bd8ef774, type: 2}
 --- !u!114 &114736539013773180
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -254,6 +268,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de57184637e8d454386d0d895f2875d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114844941665689060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1323676171207224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4e813c1603b5d24abf2187d3c9995c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  matRT: {fileID: 2100000, guid: d420dd398589a2344b5ba713bd8ef774, type: 2}
 --- !u!124 &124279708701437406
 Behaviour:
   m_ObjectHideFlags: 1

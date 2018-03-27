@@ -16,7 +16,7 @@ namespace Microsoft.Toolkit.ThreeD.Editor
             UnityEditor.BuildTarget target,
             string pathToBuiltProject)
         {
-            string sourcePath = "/fewrf";// Application.dataPath + "/UnityPackages/3DToolkit/";
+            string sourcePath = Application.dataPath + "/UnityPackages/3DToolkit/";
             string destPath = pathToBuiltProject.Substring(
                 0, pathToBuiltProject.LastIndexOf("/") + 1);
 
